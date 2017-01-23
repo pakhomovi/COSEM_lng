@@ -31,7 +31,7 @@
       <MenuWindowPreviousText>Предыдущий</MenuWindowPreviousText>
       <MenuFileExitText>Выход</MenuFileExitText>
       <MenuHelpAboutText>О программе...</MenuHelpAboutText>
-      <MenuHelpVersionsText>Версии модулей...       [Версия русификации 4.0 29.02.2016]</MenuHelpVersionsText>
+      <MenuHelpVersionsText>Версии модулей...       [Версия русификации 4.0 23.01.2017]</MenuHelpVersionsText>
       <MenuFileAllowLogText>Включить лог</MenuFileAllowLogText>
       <MenuHelpVersionText>Версия программы</MenuHelpVersionText>
       <MDIToolbar>Панель MDI</MDIToolbar>
@@ -232,7 +232,7 @@
       <InstantaneousCurrentL2>Ток, мгновенный L2</InstantaneousCurrentL2>
       <AverageVoltageL3>Напряжение, среднее L3</AverageVoltageL3>
       <InstantaneousCurrentL3>Ток, мгновенный L3</InstantaneousCurrentL3>
-      <InstantaneousActivePower>Активная мощность, мгновенная</InstantaneousActivePower>
+      <InstantaneousActivePower>Активная мощность, по модулю</InstantaneousActivePower>
       <InstantaneousCurrent>Ток, мгновенный</InstantaneousCurrent>
       <ThresholdForVoltageSag>Уставка по провалу напряжения </ThresholdForVoltageSag>
       <TimeThresholdForVoltageSag>Уставка по времени по провалу напряжения</TimeThresholdForVoltageSag>
@@ -470,7 +470,7 @@
       <InstCurrentL3>Ток, мгновенный L3</InstCurrentL3>
       <CurrentCh4>Ток мгновенный N</CurrentCh4>
       <Idif>Дифференциальный ток</Idif>
-      <TotalActivePower>Активная мощность, суммарная</TotalActivePower>
+      <TotalActivePower>Активная мощность</TotalActivePower>
       <ActivePowerL1>Активная мощность L1</ActivePowerL1>
       <ActivePowerL2>Активная мощность L2</ActivePowerL2>
       <ActivePowerL3>Активная мощность L3</ActivePowerL3>
@@ -917,14 +917,14 @@
       <MBUSMaster4_capture>MBUSMaster4_capture</MBUSMaster4_capture>
       <MBUSMaster4_slave_deinstall>MBUSMaster4_slave_deinstall</MBUSMaster4_slave_deinstall>
       <MBUSMaster4_slave_install>MBUSMaster4_slave_install</MBUSMaster4_slave_install>
-      <TotalSumInstantaneousActivePower>TotalSumInstantaneousActivePower</TotalSumInstantaneousActivePower>
-      <AbsoluteActiveEnergyTotal>AbsoluteActiveEnergyTotal</AbsoluteActiveEnergyTotal>
-      <AbsoluteActiveEnergyRate1>AbsoluteActiveEnergyRate1</AbsoluteActiveEnergyRate1>
-      <AbsoluteActiveEnergyRate2>AbsoluteActiveEnergyRate2</AbsoluteActiveEnergyRate2>
-      <AbsoluteActiveEnergyRate3>AbsoluteActiveEnergyRate3</AbsoluteActiveEnergyRate3>
-      <AbsoluteActiveEnergyRate4>AbsoluteActiveEnergyRate4</AbsoluteActiveEnergyRate4>
-      <AbsoluteActiveEnergyRate5>AbsoluteActiveEnergyRate5</AbsoluteActiveEnergyRate5>
-      <AbsoluteActiveEnergyRate6>AbsoluteActiveEnergyRate6</AbsoluteActiveEnergyRate6>
+      <TotalSumInstantaneousActivePower>Активная мощность</TotalSumInstantaneousActivePower>
+      <AbsoluteActiveEnergyTotal>Активная энергия, суммарная</AbsoluteActiveEnergyTotal>
+      <AbsoluteActiveEnergyRate1>Активная энергия, суммарная, тариф1</AbsoluteActiveEnergyRate1>
+      <AbsoluteActiveEnergyRate2>Активная энергия, суммарная, тариф2</AbsoluteActiveEnergyRate2>
+      <AbsoluteActiveEnergyRate3>Активная энергия, суммарная, тариф3</AbsoluteActiveEnergyRate3>
+      <AbsoluteActiveEnergyRate4>Активная энергия, суммарная, тариф4</AbsoluteActiveEnergyRate4>
+      <AbsoluteActiveEnergyRate5>Активная энергия, суммарная, тариф5</AbsoluteActiveEnergyRate5>
+      <AbsoluteActiveEnergyRate6>Активная энергия, суммарная, тариф6</AbsoluteActiveEnergyRate6>
       <AbsoluteInstantaneousActivePower_L1>AbsoluteInstantaneousActivePower_L1</AbsoluteInstantaneousActivePower_L1>
       <AbsoluteActiveEnergy_L1>AbsoluteActiveEnergy_L1</AbsoluteActiveEnergy_L1>
       <IncrementAbsoluteActiveEnergyBillingProfile_L1>IncrementAbsoluteActiveEnergyBillingProfile_L1</IncrementAbsoluteActiveEnergyBillingProfile_L1>
@@ -934,7 +934,7 @@
       <AbsoluteInstantaneousActivePower_L3>AbsoluteInstantaneousActivePower_L3</AbsoluteInstantaneousActivePower_L3>
       <AbsoluteActiveEnergy_L3>AbsoluteActiveEnergy_L3</AbsoluteActiveEnergy_L3>
       <IncrementAbsoluteActiveEnergyBillingProfile_L3>IncrementAbsoluteActiveEnergyBillingProfile_L3</IncrementAbsoluteActiveEnergyBillingProfile_L3>
-      <AbsoluteInstantaneousActivePower>AbsoluteInstantaneousActivePower</AbsoluteInstantaneousActivePower>
+      <AbsoluteInstantaneousActivePower>Активная мощность, по модулю</AbsoluteInstantaneousActivePower>
       <SumInstantaneousActivePower_L1>SumInstantaneousActivePower_L1</SumInstantaneousActivePower_L1>
       <SumInstantaneousActivePower_L2>SumInstantaneousActivePower_L2</SumInstantaneousActivePower_L2>
       <SumInstantaneousActivePower_L3>SumInstantaneousActivePower_L3</SumInstantaneousActivePower_L3>
@@ -945,7 +945,7 @@
       <GPRSModemSetupExtension>GPRSModemSetupExtension</GPRSModemSetupExtension>
     </ParamNames>
     <Units>
-      <count />
+      <count/>
       <reactive_energy>варч</reactive_energy>
       <reactive_power>вар</reactive_power>
       <time_minute>мин</time_minute>
@@ -1088,7 +1088,7 @@
       <RemoteConnectionExtraSwitch>RemoteConnectionExtraSwitch</RemoteConnectionExtraSwitch>
       <PowerDemandErr>PowerDemandErr</PowerDemandErr>
       <AutomaticBillingEndContract1PassiveChange>AutomaticBillingEndContract1PassiveChange</AutomaticBillingEndContract1PassiveChange>
-      <MeterCoverOpened>MeterCoverOpened</MeterCoverOpened>
+      <MeterCoverOpened>Крышка корпуса открыта</MeterCoverOpened>
       <LongPowerFailureL3Finished>LongPowerFailureL3Finished</LongPowerFailureL3Finished>
       <PowerDemandOk>PowerDemandOk</PowerDemandOk>
       <LongPowerFailureL3>LongPowerFailureL3</LongPowerFailureL3>
@@ -1233,7 +1233,7 @@
       <ReactEnergyQ4>Реактивная энергия, квадрант4</ReactEnergyQ4>
       <ReactEnergyL>Реактивная энергия, индуктивная</ReactEnergyL>
       <ReactEnergyC>Реактивная энергия, ёмкостная</ReactEnergyC>
-      <ReactEnergyQSum>Реактивная энергия, суммарная</ReactEnergyQSum>
+      <ReactEnergyQSum>Реактивная энергия, суммарная по квадрантам</ReactEnergyQSum>
       <ReactEnergyQ1Rate1>Реактивная энергия, квадрант1, тариф1</ReactEnergyQ1Rate1>
       <ReactEnergyQ1Rate2>Реактивная энергия, квадрант1, тариф2</ReactEnergyQ1Rate2>
       <ReactEnergyQ1Rate3>Реактивная энергия, квадрант1, тариф3</ReactEnergyQ1Rate3>
@@ -1305,7 +1305,7 @@
       <InstCurrentL1_mA>Ток, мгновенный L1, мА</InstCurrentL1_mA>
       <InstCurrentL2_mA>Ток, мгновенный N, мА</InstCurrentL2_mA>
       <InstCurrentL3_mA>Ток, мгновенный L3, мА</InstCurrentL3_mA>
-      <Frequency>Частота</Frequency>
+      <Frequency>Частота сети</Frequency>
       <BatteryVoltage>Напряжение батарейки</BatteryVoltage>
       <CosF>сosф</CosF>
       <CosF_L1>сosф L1</CosF_L1>
@@ -2267,14 +2267,14 @@
       <CosFExp_L1Limiter_ThresholdActive>CosFExp_L1Limiter:ThresholdActive</CosFExp_L1Limiter_ThresholdActive>
       <CosFExp_L2Limiter_ThresholdActive>CosFExp_L2Limiter:ThresholdActive</CosFExp_L2Limiter_ThresholdActive>
       <CosFExp_L3Limiter_ThresholdActive>CosFExp_L3Limiter:ThresholdActive</CosFExp_L3Limiter_ThresholdActive>
-      <TotalSumInstantaneousActivePower>TotalSumInstantaneousActivePower</TotalSumInstantaneousActivePower>
-      <AbsoluteActiveEnergyTotal>AbsoluteActiveEnergyTotal</AbsoluteActiveEnergyTotal>
-      <AbsoluteActiveEnergyRate1>AbsoluteActiveEnergyRate1</AbsoluteActiveEnergyRate1>
-      <AbsoluteActiveEnergyRate2>AbsoluteActiveEnergyRate2</AbsoluteActiveEnergyRate2>
-      <AbsoluteActiveEnergyRate3>AbsoluteActiveEnergyRate3</AbsoluteActiveEnergyRate3>
-      <AbsoluteActiveEnergyRate4>AbsoluteActiveEnergyRate4</AbsoluteActiveEnergyRate4>
-      <AbsoluteActiveEnergyRate5>AbsoluteActiveEnergyRate5</AbsoluteActiveEnergyRate5>
-      <AbsoluteActiveEnergyRate6>AbsoluteActiveEnergyRate6</AbsoluteActiveEnergyRate6>
+      <TotalSumInstantaneousActivePower>Активная мощность</TotalSumInstantaneousActivePower>
+      <AbsoluteActiveEnergyTotal>Активная энергия, суммарная</AbsoluteActiveEnergyTotal>
+      <AbsoluteActiveEnergyRate1>Активная энергия, суммарная, тариф1</AbsoluteActiveEnergyRate1>
+      <AbsoluteActiveEnergyRate2>Активная энергия, суммарная, тариф2</AbsoluteActiveEnergyRate2>
+      <AbsoluteActiveEnergyRate3>Активная энергия, суммарная, тариф3</AbsoluteActiveEnergyRate3>
+      <AbsoluteActiveEnergyRate4>Активная энергия, суммарная, тариф4</AbsoluteActiveEnergyRate4>
+      <AbsoluteActiveEnergyRate5>Активная энергия, суммарная, тариф5</AbsoluteActiveEnergyRate5>
+      <AbsoluteActiveEnergyRate6>Активная энергия, суммарная, тариф6</AbsoluteActiveEnergyRate6>
       <AbsoluteInstantaneousActivePower_L1>AbsoluteInstantaneousActivePower_L1</AbsoluteInstantaneousActivePower_L1>
       <AbsoluteActiveEnergy_L1>AbsoluteActiveEnergy_L1</AbsoluteActiveEnergy_L1>
       <IncrementAbsoluteActiveEnergyBillingProfile_L1>IncrementAbsoluteActiveEnergyBillingProfile_L1</IncrementAbsoluteActiveEnergyBillingProfile_L1>
@@ -2289,7 +2289,7 @@
       <SumInstantaneousActivePower_L3>SumInstantaneousActivePower_L3</SumInstantaneousActivePower_L3>
       <InstantaneousActivePowerImport>InstantaneousActivePowerImport</InstantaneousActivePowerImport>
       <InstantaneousActivePowerExport>InstantaneousActivePowerExport</InstantaneousActivePowerExport>
-      <AbsoluteInstantaneousActivePower>AbsoluteInstantaneousActivePower</AbsoluteInstantaneousActivePower>
+      <AbsoluteInstantaneousActivePower>Активная мощность, по модулю</AbsoluteInstantaneousActivePower>
       <IDifLimiter_ThresholdActive>IDifLimiter:ThresholdActive</IDifLimiter_ThresholdActive>
       <ExtraSwitch2__Cause_disconnect>ExtraSwitch2: Cause disconnect</ExtraSwitch2__Cause_disconnect>
       <ExtraSwitch2__Output_state>ExtraSwitch2: Output state</ExtraSwitch2__Output_state>
