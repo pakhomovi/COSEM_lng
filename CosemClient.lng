@@ -36,6 +36,7 @@
       <MenuHelpVersionText>Версия программы</MenuHelpVersionText>
       <MDIToolbar>Панель MDI</MDIToolbar>
       <MenuHelpHelpText>Помощь</MenuHelpHelpText>
+      <MenuFileCloseConfirmationText>Close confirmation</MenuFileCloseConfirmationText>
     </menuBar>
     <statusBar>
       <Text>Готово</Text>
@@ -168,6 +169,17 @@
       <_selectedGrid.ColHeader4.Value>Значение</_selectedGrid.ColHeader4.Value>
       <_selectedGrid.ColHeader5.Time>Время</_selectedGrid.ColHeader5.Time>
       <_selectedGrid.ColHeader6.Error>Ошибки</_selectedGrid.ColHeader6.Error>
+      <__availableListView.Col0.Availablevalues>Available values:</__availableListView.Col0.Availablevalues>
+      <__availableListView.Col1.OBIS>OBIS</__availableListView.Col1.OBIS>
+      <__selectedGrid.ColHeader0.>#</__selectedGrid.ColHeader0.>
+      <__selectedGrid.ColHeader2.Selectedvalues>Selected values:</__selectedGrid.ColHeader2.Selectedvalues>
+      <__selectedGrid.ColHeader3.OBIS>OBIS</__selectedGrid.ColHeader3.OBIS>
+      <__selectedGrid.ColHeader4.Value>Value</__selectedGrid.ColHeader4.Value>
+      <__selectedGrid.ColHeader5.Time>Time</__selectedGrid.ColHeader5.Time>
+      <__selectedGrid.ColHeader6.Error>Error</__selectedGrid.ColHeader6.Error>
+      <__settingsToolStrip>Settings</__settingsToolStrip>
+      <__settingsToolStrip._reqPeriodLabel>Request period:</__settingsToolStrip._reqPeriodLabel>
+      <__settingsToolStrip._tsbFlag>Flags</__settingsToolStrip._tsbFlag>
     </ReadoutForm>
     <RunTime>
       <other_reason>Ошибка</other_reason>
@@ -209,6 +221,15 @@
       <clearFiltersB>Сбросить фильтры</clearFiltersB>
       <EmptyDateTimeFilterString>Введите необходимый фильтр</EmptyDateTimeFilterString>
       <Count>Сумма</Count>
+      <__autoResizeColumnsMI>Auto resize columns</__autoResizeColumnsMI>
+      <__columnsMI>Columns</__columnsMI>
+      <__quickSearchToolStripMenuItem>Quick search</__quickSearchToolStripMenuItem>
+      <__chartsMI>Chart</__chartsMI>
+      <__arByAllCellsExceptHeaderMI>by all cells except header</__arByAllCellsExceptHeaderMI>
+      <__arByColumnHeaderMI>by column header</__arByColumnHeaderMI>
+      <__arByDisplayedCellsMI>by displayed cells</__arByDisplayedCellsMI>
+      <__arByDisplayedCellsExceptHeaderMI>by displayed cells except header</__arByDisplayedCellsExceptHeaderMI>
+      <__quickSearchL>Quick search:</__quickSearchL>
     </Grid>
   </DirectReadout>
   <DeviceReference>
@@ -935,9 +956,9 @@
       <AbsoluteActiveEnergy_L3>AbsoluteActiveEnergy_L3</AbsoluteActiveEnergy_L3>
       <IncrementAbsoluteActiveEnergyBillingProfile_L3>IncrementAbsoluteActiveEnergyBillingProfile_L3</IncrementAbsoluteActiveEnergyBillingProfile_L3>
       <AbsoluteInstantaneousActivePower>Активная мощность, по модулю</AbsoluteInstantaneousActivePower>
-      <SumInstantaneousActivePower_L1>SumInstantaneousActivePower_L1</SumInstantaneousActivePower_L1>
-      <SumInstantaneousActivePower_L2>SumInstantaneousActivePower_L2</SumInstantaneousActivePower_L2>
-      <SumInstantaneousActivePower_L3>SumInstantaneousActivePower_L3</SumInstantaneousActivePower_L3>
+      <SumInstantaneousActivePower_L1>Активная мощность L1</SumInstantaneousActivePower_L1>
+      <SumInstantaneousActivePower_L2>Активная мощность L2</SumInstantaneousActivePower_L2>
+      <SumInstantaneousActivePower_L3>Активная мощность L3</SumInstantaneousActivePower_L3>
       <InstantaneousActivePowerImport>InstantaneousActivePowerImport</InstantaneousActivePowerImport>
       <InstantaneousActivePowerExport>InstantaneousActivePowerExport</InstantaneousActivePowerExport>
       <ExtraSwitch2ScheduleActive_Main>ExtraSwitch2ScheduleActive_Main</ExtraSwitch2ScheduleActive_Main>
@@ -945,7 +966,7 @@
       <GPRSModemSetupExtension>GPRSModemSetupExtension</GPRSModemSetupExtension>
     </ParamNames>
     <Units>
-      <count/>
+      <count />
       <reactive_energy>варч</reactive_energy>
       <reactive_power>вар</reactive_power>
       <time_minute>мин</time_minute>
@@ -1117,6 +1138,9 @@
       <LongPowerFailureL2Finished>LongPowerFailureL2Finished</LongPowerFailureL2Finished>
       <PhasesConnect-ok>PhasesConnect-ok</PhasesConnect-ok>
     </ValueNames>
+    <SiPrefix>
+      <Kilo>k</Kilo>
+    </SiPrefix>
   </DeviceReference>
   <DeviceConfigService>
     <DeviceConfig>
@@ -2284,9 +2308,9 @@
       <AbsoluteInstantaneousActivePower_L3>AbsoluteInstantaneousActivePower_L3</AbsoluteInstantaneousActivePower_L3>
       <AbsoluteActiveEnergy_L3>AbsoluteActiveEnergy_L3</AbsoluteActiveEnergy_L3>
       <IncrementAbsoluteActiveEnergyBillingProfile_L3>IncrementAbsoluteActiveEnergyBillingProfile_L3</IncrementAbsoluteActiveEnergyBillingProfile_L3>
-      <SumInstantaneousActivePower_L1>SumInstantaneousActivePower_L1</SumInstantaneousActivePower_L1>
-      <SumInstantaneousActivePower_L2>SumInstantaneousActivePower_L2</SumInstantaneousActivePower_L2>
-      <SumInstantaneousActivePower_L3>SumInstantaneousActivePower_L3</SumInstantaneousActivePower_L3>
+      <SumInstantaneousActivePower_L1>Активная мощность L1</SumInstantaneousActivePower_L1>
+      <SumInstantaneousActivePower_L2>Активная мощность L2</SumInstantaneousActivePower_L2>
+      <SumInstantaneousActivePower_L3>Активная мощность L3</SumInstantaneousActivePower_L3>
       <InstantaneousActivePowerImport>InstantaneousActivePowerImport</InstantaneousActivePowerImport>
       <InstantaneousActivePowerExport>InstantaneousActivePowerExport</InstantaneousActivePowerExport>
       <AbsoluteInstantaneousActivePower>Активная мощность, по модулю</AbsoluteInstantaneousActivePower>
@@ -2300,6 +2324,7 @@
     <DeviceConfig_7_0>
       <Device_Config>Конфигурирование устройства</Device_Config>
       <Device_Config_Lite>Безопасное конфигурирование устройства</Device_Config_Lite>
+      <Tools>Tools</Tools>
     </DeviceConfig_7_0>
     <ScriptTable>
       <NoTariffs>Без Тарифа</NoTariffs>
@@ -3050,6 +3075,11 @@
       <associationLabel>Ассоциации:</associationLabel>
       <gbTransport>Транспорт</gbTransport>
       <transportPropertyGrid>Сетка настроек</transportPropertyGrid>
+      <tbDevInfo>Device Info</tbDevInfo>
+      <_.Item0>По категориям</_.Item0>
+      <_.Item1>В алфавитном порядке</_.Item1>
+      <_.Item4>Страницы свойств</_.Item4>
+      <tbDevType>Device type</tbDevType>
     </MainForm>
     <LogBoxMsg>
       <UnknownDeviceType>Неизвестен тип устройства</UnknownDeviceType>
@@ -3069,6 +3099,7 @@
       <Open_AA_error>Ошибка: попытка открыть Ассоциацию</Open_AA_error>
       <ExceptionResponse>Ошибка: ответ</ExceptionResponse>
       <Security_info_error>Security info error</Security_info_error>
+      <Close_application_association>Close application association</Close_application_association>
     </LogBoxMsg>
     <PropertyGrid>
       <COMPort>COM-порт</COMPort>
